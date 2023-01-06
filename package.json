@@ -5,18 +5,19 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "devStart": "nodemon server.js",
+    "start": "server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nathanbirch/cse341-apiCourse-code.git"
+    "url": "https://github.com/Erambal/cse341"
   },
-  "author": "Nathan Birch",
+  "author": "Kendrikc Rambal",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nathanbirch/cse341-apiCourse-code/issues"
+    "url": "https://github.com/Erambal/cse341/issues"
   },
-  "homepage": "https://github.com/nathanbirch/cse341-apiCourse-code#readme",
+  "homepage": "https://github.com/Erambal/cse341#readme",
   "dependencies": {
     "express": "^4.17.3"
   },
